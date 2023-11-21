@@ -12,7 +12,8 @@ Las operaciones del lenguaje son las siguientes:
 
 El valor numérico inicial es 0 y las operaciones deben aplicarse en elorden en que aparecen en la cadena de símbolos.
 
-## Ejemplos de entrada:
+## Ejemplos de entrada
+
 Entrada: "##*&"
 Salida esperada: "4"
 Explicación: Incrementa (1), incrementa (2), multiplica (4), imprime (4).
@@ -21,11 +22,14 @@ Entrada: "&##&*&@&"
 Salida esperada: "0243"
 Explicación: Imprime (0), incrementa (1), incrementa (2), imprime (2), multiplica (4), imprime (4), decrementa (3), imprime (3).
 
-## Tu desafío:
+## Tu desafío
+
 Desarrolla un mini compilador que tome una cadena de texto y devuelva otra cadena de texto con el resultado de ejecutar el programa.
 
-## Cómo resolverlo
+## Cómo resolverl
+
 1. Resuelve el mensaje que encontrarás en este archivo: https://codember.dev/data/message_02.txt
 
 2. Crea un programa al que le pases como entrada el mensaje anterior. Envía la salida con el comando "submit" en la terminal, por ejemplo así:
-submit 024899488
+
+    `submit 024899488`

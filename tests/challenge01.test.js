@@ -1,7 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { challenge01 } from '../src/challenge01/challenge01'
 
-
 describe('challenge01', () => {
   it('should recieve a string', () => {
     expect(() => challenge01()).toThrow()
@@ -30,6 +29,6 @@ describe('challenge01', () => {
   })
 
   it('should return casas1casa1casasas1', () => {
-    expect(challenge01('casas casa casasas')).toBe('casas1casa1casasas1');
+    expect(challenge01('casas casa casasas')).toBe('casas1casa1casasas1')
   })
 })

@@ -6,11 +6,11 @@ function main() {
     './src/challenge01/data.txt',
     { encoding: 'utf-8' },
     function (err, data) {
-      if (err) throw err;
-      const result = challenge01(data);
-      console.log(result);
+      if (err) throw err
+      const result = challenge01(data)
+      console.log(result)
     }
-  );
+  )
 }
 
-main();
+main()
